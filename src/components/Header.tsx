@@ -18,7 +18,7 @@ const Header = () => {
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
               <BookOpen className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-blue-900">LearnTech Solutions</span>
+            <span className="text-xl font-bold text-blue-900">YR IT Solutions</span>
             </Link>
           </div>
 

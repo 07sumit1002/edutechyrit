@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-2 rounded-lg">
                 <BookOpen className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-white">LearnTech Solutions</span>
+              <span className="text-xl font-bold text-white">YR IT Solutions</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Empowering learners worldwide with cutting-edge technology education. 
@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span>support@learntechsolutions.com</span>
+                <span>support@YR ITsolutions.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
@@ -97,7 +97,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">
-            © 2024 LearnTech Solutions. All rights reserved.
+            © 2024 YR IT Solutions. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</a>

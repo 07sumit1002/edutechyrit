@@ -84,7 +84,7 @@ const About = () => {
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-white mb-6">
-            About <span className="text-blue-200">LearnTech Solutions</span>
+            About <span className="text-blue-200">YR IT Solutions</span>
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             We're on a mission to democratize technology education and empower learners worldwide 
@@ -100,7 +100,7 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2020, LearnTech Solutions was born from a simple belief: everyone deserves 
+                Founded in 2020, YR IT Solutions was born from a simple belief: everyone deserves 
                 access to high-quality technology education, regardless of their background or location.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
@@ -195,7 +195,7 @@ const About = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-8">Our Story</h2>
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
             <p>
-              LearnTech Solutions started as a small initiative by a group of passionate educators and 
+              YR IT Solutions started as a small initiative by a group of passionate educators and 
               technologists who saw the gap between traditional education and industry needs.
             </p>
             <p>

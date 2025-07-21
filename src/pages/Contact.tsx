@@ -43,7 +43,7 @@ const Contact = () => {
       icon: Mail,
       title: "Email Support",
       description: "Get help with courses and technical issues",
-      contact: "support@learntechsolutions.com"
+      contact: "support@YR ITsolutions.com"
     },
     {
       icon: Phone,

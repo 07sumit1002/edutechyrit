@@ -31,7 +31,7 @@ const Login = () => {
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-3 rounded-lg">
               <BookOpen className="h-8 w-8 text-white" />
             </div>
-            <span className="text-2xl font-bold text-blue-900">LearnTech Solutions</span>
+            <span className="text-2xl font-bold text-blue-900">YR IT Solutions</span>
           </div>
           <h2 className="text-3xl font-bold text-gray-900">Welcome back!</h2>
           <p className="mt-2 text-gray-600">Sign in to continue your learning journey</p>
