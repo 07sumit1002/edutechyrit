@@ -13,7 +13,7 @@ const CourseCard = ({ course }: { course: any }) => (
         {course.level}
       </div>
       <div className="absolute top-4 right-4 bg-white bg-opacity-90 text-purple-600 px-2 py-1 rounded text-sm font-semibold">
-        ${course.price}
+        ₹{course.price}
       </div>
     </div>
     

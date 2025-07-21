@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Award, Globe, Heart, Target, Lightbulb, BookOpen } from 'lucide-react';
+import { Users, Award, Briefcase, ThumbsUp, Target, Lightbulb, Eye, Shield } from 'lucide-react';
 
 const TeamMember = ({ member }: { member: any }) => (
   <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
@@ -18,65 +18,66 @@ const TeamMember = ({ member }: { member: any }) => (
 
 const About = () => {
   const stats = [
-    { icon: Users, value: "50,000+", label: "Students Worldwide" },
-    { icon: Award, value: "95%", label: "Success Rate" },
-    { icon: Globe, value: "150+", label: "Countries Reached" },
-    { icon: Heart, value: "4.9/5", label: "Student Satisfaction" }
+    { icon: Briefcase, value: "2024", label: "Founded" },
+    { icon: Users, value: "100+", label: "Clients Worldwide" },
+    { icon: Award, value: "350+", label: "Projects Delivered" },
+    { icon: ThumbsUp, value: "4 Awards", label: "Founder Achievements" }
   ];
 
   const values = [
     {
       icon: Target,
-      title: "Excellence",
-      description: "We strive for excellence in everything we do, from course content to student support."
+      title: "Commitment",
+      description: "We go the extra mile to exceed expectations through timely delivery and impactful results."
+    },
+    {
+      icon: Shield,
+      title: "Ownership",
+      description: "We take responsibility and deliver with precision, aligned with your business goals."
     },
     {
       icon: Lightbulb,
       title: "Innovation",
-      description: "We embrace cutting-edge technologies and teaching methodologies to enhance learning."
+      description: "We embrace emerging technologies to create forward-looking, standout solutions."
     },
     {
-      icon: Heart,
-      title: "Community",
-      description: "We foster a supportive learning community where everyone can thrive and succeed."
-    },
-    {
-      icon: BookOpen,
-      title: "Accessibility",
-      description: "We believe quality education should be accessible to learners from all backgrounds."
+      icon: Eye,
+      title: "Transparency",
+      description: "We value honest communication and keep clients informed at every step."
     }
   ];
 
   const team = [
     {
       id: 1,
-      name: "Dr. Sarah Johnson",
-      role: "Founder & CEO",
-      bio: "Former Google engineer with 15+ years in tech education and a passion for democratizing learning.",
+      name: "Yashika",
+      role: "CEO, Founder",
+      bio: "A visionary leader focused on delivering innovative, scalable digital solutions that transform businesses and empower growth.",
       image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Head of Curriculum",
-      bio: "Ex-Microsoft architect who designs our cutting-edge curriculum with industry relevance.",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+      name: "Sumit Kumar",
+      role: "Full Stack Developer & Trainer",
+      bio: "Expert in building robust web applications and mentoring aspiring developers with a passion for clean code and scalable architecture.",
+      image: "https://images.pexels.com/photos/6326377/pexels-photo-6326377.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "Lead UX Designer",
-      bio: "Award-winning designer focused on creating intuitive and engaging learning experiences.",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+      name: "Isha",
+      role: "UI/UX Developer & Trainer",
+      bio: "Specializes in creating user-centered designs and interactive experiences that drive engagement and usability.",
+      image: "https://images.pexels.com/photos/7647990/pexels-photo-7647990.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       id: 4,
-      name: "David Thompson",
-      role: "VP of Engineering",
-      bio: "Full-stack expert building scalable platforms that serve millions of learners globally.",
-      image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400"
+      name: "Vinay Sheoran",
+      role: "Data Scientist & Trainer",
+      bio: "Data enthusiast with deep experience in predictive analytics and machine learning, committed to data-driven decision making.",
+      image: "https://images.pexels.com/photos/6326370/pexels-photo-6326370.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ];
+
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -84,55 +85,18 @@ const About = () => {
       <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-white mb-6">
-            About <span className="text-blue-200">YR IT Solutions</span>
+            The Story of <span className="text-blue-200">YR IT Solutions</span>
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            We're on a mission to democratize technology education and empower learners worldwide 
-            to build successful careers in the digital age.
+            We are a results-driven tech company empowering businesses with custom apps, digital marketing, and AI-powered solutions.
           </p>
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2020, YR IT Solutions was born from a simple belief: everyone deserves 
-                access to high-quality technology education, regardless of their background or location.
-              </p>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                We've helped over 50,000 students from 150+ countries transform their careers through 
-                our comprehensive courses, expert instruction, and supportive community.
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Our platform combines cutting-edge technology with proven pedagogical methods to deliver 
-                an unparalleled learning experience that prepares students for real-world success.
-              </p>
-            </div>
-            <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Students learning"
-                className="rounded-xl shadow-lg"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white p-6 rounded-lg shadow-xl">
-                <div className="text-2xl font-bold">50,000+</div>
-                <div className="text-blue-100">Lives Changed</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Our Impact in Numbers
-          </h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Some Quick Facts</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
@@ -148,15 +112,14 @@ const About = () => {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              These principles guide everything we do and shape the learning experience we provide.
+              At YR IT Solutions, ethics, integrity, and excellence drive every decision and partnership.
             </p>
           </div>
-          
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <div key={index} className="text-center">
@@ -172,13 +135,10 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our diverse team of educators, engineers, and industry experts is dedicated to your success.
-            </p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">The Founding Member</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -214,18 +174,16 @@ const About = () => {
       {/* CTA Section */}
       <section className="py-16 bg-blue-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Join Our Learning Community
-          </h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Have a Question?</h2>
           <p className="text-blue-100 mb-8">
-            Be part of a global community of learners, innovators, and future tech leaders.
+            We do more than connect — we relate to your business and provide cost-effective, tailored solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-semibold">
-              Start Learning Today
+              Schedule a Meeting
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition-colors font-semibold">
-              Contact Our Team
+              Contact Us
             </button>
           </div>
         </div>

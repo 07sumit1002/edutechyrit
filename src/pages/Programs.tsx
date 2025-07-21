@@ -11,7 +11,7 @@ const ProgramCard = ({ program }: { program: any }) => (
         </div>
       </div>
       <p className="text-blue-100 mb-4">{program.description}</p>
-      <div className="text-3xl font-bold">${program.price}</div>
+      <div className="text-3xl font-bold">₹{program.price}</div>
     </div>
     
     <div className="p-6">

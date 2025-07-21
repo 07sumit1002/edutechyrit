@@ -33,7 +33,7 @@ const CourseCategory = ({ category }: { category: any }) => (
         </div>
         
         <div className="flex items-center justify-between">
-          <div className="text-blue-600 font-semibold">From ${category.priceFrom}</div>
+          <div className="text-blue-600 font-semibold">From ₹{category.priceFrom}</div>
           <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium group-hover:bg-blue-700">
             Explore Courses
           </button>
