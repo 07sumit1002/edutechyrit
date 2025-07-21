@@ -25,10 +25,10 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/" className={`transition-colors font-medium ${isActive('/') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>Home</Link>
+            <Link to="/about" className={`transition-colors font-medium ${isActive('/about') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>About</Link>
             <Link to="/courses" className={`transition-colors font-medium ${isActive('/courses') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>Courses</Link>
             <Link to="/programs" className={`transition-colors font-medium ${isActive('/programs') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>Programs</Link>
-            <Link to="/about" className={`transition-colors font-medium ${isActive('/about') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>About</Link>
-            <Link to="/contact" className={`transition-colors font-medium ${isActive('/contact') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>Contact</Link>
+                        <Link to="/contact" className={`transition-colors font-medium ${isActive('/contact') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}>Contact</Link>
           </nav>
 
           {/* Search and User Actions */}
