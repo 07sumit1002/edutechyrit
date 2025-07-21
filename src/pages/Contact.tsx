@@ -8,7 +8,7 @@ const ContactCard = ({ icon: Icon, title, description, contact }: {
   contact: string;
 }) => (
   <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-    <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+    <div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 hover:bg-blue-200">
       <Icon className="h-6 w-6 text-blue-600" />
     </div>
     <h3 className="text-lg font-semibold text-gray-900 mb-2">{title}</h3>
@@ -22,6 +22,7 @@ const Contact = () => {
     name: '',
     email: '',
     subject: '',
+    contact: '',
     message: ''
   });
 
@@ -43,26 +44,26 @@ const Contact = () => {
       icon: Mail,
       title: "Email Support",
       description: "Get help with courses and technical issues",
-      contact: "support@YR ITsolutions.com"
+      contact: "yr.itsolutions.pvtltd@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone Support",
       description: "Speak with our team during business hours",
-      contact: "+1 (555) 123-4567"
+      contact: "+91 740 489 0806"
     },
     {
       icon: MapPin,
       title: "Office Location",
       description: "Visit us at our headquarters",
-      contact: "123 Tech Street, Silicon Valley, CA 94301"
+      contact: "Gurugram, Haryana, India"
     },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      description: "We're here to help when you need us",
-      contact: "Mon-Fri: 9AM-6PM PST"
-    }
+    // {
+    //   icon: Clock,
+    //   title: "Business Hours",
+    //   description: "We're here to help when you need us",
+    //   contact: "Mon-Fri: 9AM-6PM PST"
+    // }
   ];
 
   const inquiryTypes = [
@@ -145,6 +146,21 @@ const Contact = () => {
                     <option value="partnership">Partnership</option>
                     <option value="other">Other</option>
                   </select>
+                </div>
+
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                    Contact no.
+                  </label>
+                  <input
+                      type="tel"
+                      id="contact"
+                      name="contact"
+                      value={formData.contact}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      required
+                    />
                 </div>
                 
                 <div>
@@ -244,7 +260,7 @@ const Contact = () => {
             <div className="text-center">
               <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
               <p className="text-gray-600">Interactive map would be integrated here</p>
-              <p className="text-gray-500 text-sm">123 Tech Street, Silicon Valley, CA 94301</p>
+              <p className="text-gray-500 text-sm">Gurugram, Haryana, India</p>
             </div>
           </div>
         </div>

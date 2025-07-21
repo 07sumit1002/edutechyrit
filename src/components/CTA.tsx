@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CTA = () => {
   const benefits = [
@@ -33,14 +34,18 @@ const CTA = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <button className="group bg-white text-blue-600 px-8 py-4 rounded-xl hover:bg-gray-100 transition-all duration-300 font-bold text-lg flex items-center justify-center shadow-xl hover:shadow-2xl">
-              Start Learning Now
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </button>
-            
-            <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-300 font-bold text-lg">
-              View Course Catalog
-            </button>
+            <Link to={'/programs'}>
+              <button className="group bg-white text-blue-600 px-8 py-4 rounded-xl hover:bg-gray-100 transition-all duration-300 font-bold text-lg flex items-center justify-center shadow-xl hover:shadow-2xl">
+                Start Learning Now
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
+
+            <Link to={'/courses'}>
+              <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-300 font-bold text-lg">
+                View Course Catalog
+              </button>
+            </Link>
           </div>
           
           <div className="text-blue-200 text-sm">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { BookOpen, Facebook, Instagram, Linkedin, Mail, Phone, MapPin, X } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors">
-                <Twitter className="h-5 w-5" />
+                <X className="h-5 w-5" />
               </a>
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-blue-600 transition-colors">
                 <Instagram className="h-5 w-5" />
@@ -66,15 +66,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span>support@YR ITsolutions.com</span>
+                <span>yr.itsolutions.pvtltd@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 740 489 0806</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400" />
-                <span>123 Tech Street, Silicon Valley, CA 94301</span>
+                <span>Gurugram, Haryana, India</span>
               </div>
             </div>
             
@@ -97,7 +97,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400">
-            © 2024 YR IT Solutions. All rights reserved.
+            © 2025 YR IT Solutions. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</a>
